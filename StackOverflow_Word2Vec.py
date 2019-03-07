@@ -60,7 +60,7 @@ class TextProcessing:
         return questions_stop
 
     def preprocessing_data(self, path):
-
+        # there is no json file in ./Data/, how to get this file?
         stackoverflow_path = path + 'StackOverflow_Word2Vec.json'
 
         with open(stackoverflow_path) as file:
